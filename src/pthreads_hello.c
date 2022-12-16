@@ -9,7 +9,7 @@ void * print_message_function(void * ptr){
   printf("%s \n",message);
 }
 
-main(){
+int main(){
   pthread_t thread1, thread2;
   char * message1 = "Thread 1";
   char * message2 = "Thread 2";
